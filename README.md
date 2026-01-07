@@ -13,5 +13,10 @@ The focus of this implementation was to achieve exact visual parity with the des
 - **Font:** Inter (optimized via `next/font`)
 - **Version Control:** Git & GitHub
 
+## ⚙️ Setup Instructions
+To set up this project on your local machine, follow these steps:
 
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/akshat279/fintech-landing-page-assignment.git
 

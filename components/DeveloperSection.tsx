@@ -4,12 +4,12 @@ import { ArrowRight, CodeXml, FileCode, Box } from 'lucide-react';
 export default function DeveloperSection() {
   return (
     <section className="py-24 px-6 bg-[#0B0F19] relative overflow-hidden">
-       {/* Background Glow */}
+       
       <div className="absolute right-0 bottom-0 w-[600px] h-[600px] bg-blue-900/20 blur-[150px] rounded-full pointer-events-none -z-10" />
 
       <div className="container mx-auto grid lg:grid-cols-2 gap-16 items-center relative z-10">
         
-        {/* Left Side: Text Content */}
+        
         <div>
           <span className="text-blue-500 font-bold uppercase text-xs tracking-widest mb-4 block">
             API & Developer
@@ -41,18 +41,18 @@ export default function DeveloperSection() {
           </div>
         </div>
 
-        {/* Right Side: Code Snippet (WHITE CARD) */}
+        
         <div className="relative">
-            {/* The Code Window - White Background */}
+            
             <div className="bg-white rounded-xl border border-slate-200 shadow-2xl shadow-blue-900/5 overflow-hidden font-mono text-sm relative z-20">
-                {/* Window Header - Light Grey */}
+                
                 <div className="bg-slate-100 px-4 py-3 border-b border-slate-200 flex gap-2">
                     <div className="w-3 h-3 rounded-full bg-slate-300"></div>
                     <div className="w-3 h-3 rounded-full bg-slate-300"></div>
                     <div className="w-3 h-3 rounded-full bg-slate-300"></div>
                 </div>
 
-                {/* Code Content - Dark Text on White Background with Syntax Highlighting */}
+                
                 <div className="p-6 text-slate-800 leading-relaxed overflow-x-auto bg-white">
                     <div className="mb-1">
                         <span className="text-emerald-600 font-bold">GET</span> <span className="text-slate-600">/transactions/</span><span className="text-blue-600">txn_67890</span>
